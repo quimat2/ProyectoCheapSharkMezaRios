@@ -49,6 +49,10 @@ header {
   cursor: pointer;
 }
 
+#search-button:hover {
+  background-color: darkblue;
+}
+
 /* Estilo de las tarjetas de juego */
 
 .game-card {

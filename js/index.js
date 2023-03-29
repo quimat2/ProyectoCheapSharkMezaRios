@@ -52,8 +52,8 @@ function displayGames(games) {
     gameCard.appendChild(cheapest); */
 
     const gameLink = document.createElement("a");
-    gameLink.textContent = "Ver todas las ofertas";
-    gameLink.href = `https://www.cheapshark.com/redirect?dealID=${game.dealID}`;
+    gameLink.textContent = "Comprar al precio más barato";
+    gameLink.href = `https://www.cheapshark.com/redirect?dealID=${game.cheapestDealID}`;
     gameCard.appendChild(gameLink);
 
     gameGrid.appendChild(gameCard);
