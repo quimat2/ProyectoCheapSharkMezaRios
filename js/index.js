@@ -46,10 +46,6 @@ function displayGames(games) {
     const gamePrice = document.createElement("p");
     gamePrice.textContent = `Precio más bajo: ${game.cheapest} USD`;
     gameCard.appendChild(gamePrice);
-    
-    /*const cheapest = document.createElement("p");
-    cheapest.textContent = `La tienda más barata es: ${game.cheapest.storeName}`;
-    gameCard.appendChild(cheapest); */
 
     const gameLink = document.createElement("a");
     gameLink.textContent = "Comprar al precio más barato";
